@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جرعتي</string>
+
+    <!-- Main screen -->
+    <string name="log_button">تسجيل</string>
+    <string name="delete">حذف</string>
+    <string name="always_show">ظهور دائم</string>
+    <string name="no_dose_yet">لسه ماتسجلش جرعة</string>
+    <string name="add_medication">إضافة دواء</string>
+    <string name="medication_name_hint">اسم الدواء</string>
+    <string name="add">إضافة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="empty_medication_list">مفيش أدوية مضافة لسه. دوس + عشان تضيف أول دواء</string>
+    <string name="delete_medication_confirm_title">حذف الدواء؟</string>
+    <string name="delete_medication_confirm_message">هيتحذف الدواء وكل سجل الجرعات بتاعه. الإجراء ده نهائي.</string>
+    <string name="cooldown_active">لسه فاكر إنك سجلت الجرعة دي من %1$d دقيقة. لو عايز تسجل تاني قبل الكولداون، عدّل من السجل.</string>
+    <string name="dose_logged">تم تسجيل الجرعة</string>
+
+    <!-- Log screen -->
+    <string name="dose_log_title">سجل الجرعات</string>
+    <string name="dose_log_title_filtered">سجل %1$s</string>
+    <string name="share">مشاركة</string>
+    <string name="clear_log">تفريغ السجل</string>
+    <string name="clear_log_confirm_title">تفريغ السجل؟</string>
+    <string name="clear_log_confirm_message">هيتحذف كل تسجيلات الجرعات دي نهائيًا.</string>
+    <string name="empty_log">مفيش تسجيلات لسه</string>
+    <string name="dose_amount_hint">الجرعة (اختياري)</string>
+    <string name="edit_log_title">تعديل التسجيل</string>
+    <string name="delete_log_confirm_title">حذف التسجيل؟</string>
+    <string name="pick_date">اختر التاريخ</string>
+    <string name="pick_time">اختر الوقت</string>
+
+    <!-- Relative time -->
+    <string name="time_now">الآن</string>
+    <string name="time_minutes_ago">منذ %1$d دقيقة</string>
+    <string name="time_hours_ago">منذ %1$d ساعة</string>
+    <string name="time_hours_minutes_ago">منذ %1$d ساعة و %2$d دقيقة</string>
+    <string name="time_days_ago">منذ %1$d يوم</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">متابعة الأدوية</string>
+    <string name="notification_channel_description">إشعار دائم بآخر جرعة لكل دواء وزرار تسجيل سريع</string>
+    <string name="notification_summary_title">جرعتي — متابعة نشطة</string>
+    <string name="notification_summary_text">اضغط لفتح التطبيق</string>
+    <string name="notification_no_meds">مفيش أدوية مفعّل لها «ظهور دائم» حاليًا</string>
+
+    <!-- Permissions / battery -->
+    <string name="battery_optimization_title">استثناء التطبيق من توفير البطارية</string>
+    <string name="battery_optimization_message">عشان الإشعار الدائم يفضل شغال ومايتقفلش من النظام، لازم تستثني «جرعتي» من إعدادات توفير البطارية. هيفتح لك إعدادات النظام دلوقتي.</string>
+    <string name="battery_optimization_action">فتح الإعدادات</string>
+    <string name="later">لاحقًا</string>
+
+    <!-- Glucose / camera capture -->
+    <string name="camera_reading_checkbox">قياس بالكاميرا (زي جهاز السكر) — الضغط على «تصوير» هيفتح الكاميرا بدل التسجيل الفوري</string>
+    <string name="capture_button">تصوير</string>
+    <string name="glucose_subtitle_format">%1$s %2$s — %3$s</string>
+    <string name="glucose_capture_title">قياس السكر</string>
+    <string name="glucose_detecting">جاري قراءة الرقم من الصورة…</string>
+    <string name="glucose_value_hint">القراءة</string>
+    <string name="glucose_invalid_value">اكتب رقم القراءة الصحيح</string>
+    <string name="glucose_unit_mgdl">مجم/دل (mg/dL)</string>
+    <string name="glucose_unit_mmoll">مليمول/ل (mmol/L)</string>
+    <string name="retake_photo">إعادة التصوير</string>
+    <string name="glucose_reading_label">القراءة: %1$s %2$s</string>
+    <string name="camera_permission_denied">محتاج إذن الكاميرا عشان تصوّر القراءة</string>
+
+    <!-- Export -->
+    <string name="export_csv">تصدير Excel (CSV)</string>
+    <string name="export_pdf">تصدير PDF</string>
+    <string name="export_error">حصل خطأ أثناء التصدير</string>
+</resources>

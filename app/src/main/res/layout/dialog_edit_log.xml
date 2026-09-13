@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonPickDate"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        tools:text="2026/09/11" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonPickTime"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        tools:text="14:05" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutDose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dose_amount_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editDose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
